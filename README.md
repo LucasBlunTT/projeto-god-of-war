@@ -1,7 +1,7 @@
 # REDESIGN | Banco Neon
 
 ## 📷 Screenshot
-![image](https://user-images.githubusercontent.com/83377646/203385139-1e3b8700-226b-4cf2-bf1f-2426e5f64a6b.png)
+![image](https://user-images.githubusercontent.com/83377646/203386399-9babf59d-d1a7-4154-95cd-1a9a6f0dfd49.png)
 
 
 ## 📋 Descrição do projeto
