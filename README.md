@@ -1,4 +1,4 @@
-# REDESIGN | Banco Neon
+# REDESIGN | God Of War - Ragnarok
 
 ## 📷 Screenshot
 ![image](https://user-images.githubusercontent.com/83377646/203386399-9babf59d-d1a7-4154-95cd-1a9a6f0dfd49.png)
