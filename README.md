@@ -1,7 +1,7 @@
 # REDESIGN | God Of War - Ragnarok
 
 ## 📷 Screenshot
-![image](https://user-images.githubusercontent.com/83377646/203386399-9babf59d-d1a7-4154-95cd-1a9a6f0dfd49.png)
+![image](https://user-images.githubusercontent.com/83377646/203392146-f1b19465-063d-4416-b6bc-df56cc56a275.png)
 
 
 ## 📋 Descrição do projeto
