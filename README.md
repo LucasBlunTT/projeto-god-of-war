@@ -12,7 +12,6 @@ Com a tendência deste novo lançamento no mundo dos games, e o nome do jogo em 
 - HTML5
 - CSS3/SASS
 - JavaScript
-- AOS - Animate on scroll library
 - Swiperjs
 
 ## 📈 Status do projeto
