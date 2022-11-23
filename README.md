@@ -16,7 +16,7 @@ Com a tendência deste novo lançamento no mundo dos games, e o nome do jogo em 
 - Swiperjs
 
 ## 📈 Status do projeto
- 🔨 Em construção
+✅ Concluído
 
 ## 🚀 Links 
 - Site em produção: [Link](https://god-of-war-ragnarok-redesign.netlify.app/ "Link")
