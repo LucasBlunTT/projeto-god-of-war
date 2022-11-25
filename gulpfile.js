@@ -1,4 +1,6 @@
-const { src } = require('gulp');
+const {
+    src
+} = require('gulp');
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
@@ -10,7 +12,9 @@ const uglify = require('gulp-uglify');
 // Compilando o sass, adicionado autoprefixed e dando refresh na pagina
 function compilaSass() {
     return gulp.src('scss/*.scss')
-        .pipe(sass({ outputStyle: 'compressed' }))
+        .pipe(sass({
+            outputStyle: 'compressed'
+        }))
         .pipe(autoprefixer({
             overrideBrowserslist: ['last 2 versions'],
             cascade: false,
@@ -47,7 +51,7 @@ function gulpJs() {
 // concatenando os plugins JAVASCRIPT em um arquivo plugin.js, para não usar as libs com declaração no HTML
 function pluginsJs() {
     return gulp
-        .src(['./js/lib/swiper.min.js'])
+        .src(['./js/lib/aos.min.js', './js/lib/swiper.min.js'])
         .pipe(concat('plugins.js'))
         .pipe(gulp.dest('js/'))
         .pipe(browserSync.stream());
