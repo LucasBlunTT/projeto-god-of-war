@@ -40,4 +40,28 @@ header {
             }
         }
     }
+
+    @media (max-width: 560px) {
+
+        padding: 0px 15px;
+
+        .sony {
+            display: none;
+        }
+
+
+        .logo {
+            max-width: 14rem;
+        }
+
+        .platform {
+            span {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        height: 7rem;
+    }
 }

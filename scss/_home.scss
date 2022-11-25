@@ -22,7 +22,7 @@
 
             p {
                 font-weight: 500;
-                font-size: 22px;
+                //font-size: 22px;
                 line-height: 140%;
                 color: white;
                 margin-bottom: 4rem;
@@ -57,7 +57,7 @@
             position: relative;
             width: 100%;
             max-width: 44.3rem;
-            top: 9.7rem;
+            //top: 9.7rem;
 
             span {
                 display: block;
@@ -103,6 +103,109 @@
             }
         }
     }
+
+    @media (max-width: 1200px) {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        height: auto;
+        background-position-x: 30%;
+
+        .left {
+            max-width: 64rem;
+
+            p {
+                font-size: 1.8rem;
+            }
+        }
+
+        .right {
+            top: 0;
+            max-width: 35.3rem;
+
+            button {
+                height: 19.7rem;
+            }
+
+        }
+
+    }
+
+    @media (max-width: 991px) {
+        padding: 6rem 0;
+        height: auto;
+        background-size: cover;
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left {
+            text-align: center;
+            margin-bottom: 4rem;
+
+            .value {
+                justify-content: center;
+            }
+        }
+
+        .right {
+            text-align: center;
+
+            button {
+                margin-bottom: 3rem;
+            }
+
+            .year-old {
+                flex-direction: column;
+
+                p {
+                    margin-left: 0;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 560px) {
+        padding: 4rem 0;
+
+        .left {
+            h1 {
+                font-size: 6rem;
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                max-width: 80%;
+                margin: 0 auto;
+                margin-bottom: 3rem;
+            }
+
+            .value {
+                flex-direction: column;
+            }
+        }
+
+        .right {
+            max-width: 31rem;
+
+            button {
+                height: 17.7rem !important;
+                max-width: 34.5rem;
+                margin: 0 auto;
+                margin-bottom: 3rem !important;
+            }
+
+            .year-old {
+                p {
+                    line-height: 2.4rem !important;
+                }
+            }
+        }
+    }
 }
 
 .s-info-geral {
@@ -129,6 +232,32 @@
                 line-height: 160%;
                 color: #BDC2CB;
                 margin-top: 1.2rem;
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        padding: 4rem 0;
+        height: auto;
+
+        ul {
+            flex-wrap: wrap;
+            gap: 3rem 0;
+
+            li {
+                width: 33.3%;
+            }
+        }
+    }
+
+    @media (max-width: 560px) {
+        ul {
+            li {
+                width: 50%;
+
+                span {
+                    max-width: 14.5rem;
+                }
             }
         }
     }
@@ -182,6 +311,73 @@
             top: -45px;
         }
     }
+
+    @media (max-width: 1200px) {
+        background-image: none;
+        padding: 6rem 0;
+
+        .container {
+            flex-direction: column-reverse;
+        }
+
+        .left {
+            max-width: 100% !important;
+            text-align: center;
+
+            .subtitle {
+                justify-content: center;
+            }
+
+            h2 {
+                max-width: 75% !important;
+                margin: 2rem auto !important;
+            }
+
+            .corp {
+                justify-content: center;
+            }
+        }
+
+        .kratos-atreus {
+            left: 0 !important;
+            top: 0 !important;
+            margin-bottom: 6rem !important;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .left {
+            h2 {
+                max-width: 95% !important;
+            }
+        }
+    }
+
+    @media (max-width: 560px) {
+        .left {
+            h2 {
+                font-size: 3rem !important;
+            }
+
+            p {
+                font-size: 1.6rem;
+                margin-bottom: 4rem;
+            }
+
+            .corp {
+                flex-direction: column;
+
+                p {
+                    margin-left: 0 !important;
+                    margin-top: 3rem !important;
+                }
+            }
+        }
+
+        .kratos-atreus {
+            margin-bottom: 4rem !important;
+        }
+    }
 }
 
 .s-characteres {
@@ -223,4 +419,58 @@
             }
         }
     }
+
+    @media (max-width: 1200px) {
+        padding: 6rem 0;
+    }
+
+    @media (max-width: 991px) {
+        .description {
+            flex-direction: column;
+            align-items: center;
+
+            .left {
+                max-width: 100%;
+                text-align: center;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+
+    @media (max-width: 560px) {
+        padding: 4rem 0;
+
+        .description {
+            .left {
+                h2 {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .right {
+                flex-direction: column;
+                align-items: center;
+
+                .text {
+                    img {
+                        margin: 0 auto;
+                    }
+
+                    span {
+                        max-width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .slide-characteres {
+            margin-top: 4rem;
+        }
+    }
+
 }
